@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashutosh Singh Portfolio</title>
+    <link
+      rel="shortcut icon"
+      type="image/jpg"
+      href="./resources/cloud.jpg"
+    />
+    <!---- Box Icons ---->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css"
+      integrity="sha512-pVCM5+SN2+qwj36KonHToF2p1oIvoU3bsqxphdOIWMYmgr4ZqD3t5DjKvvetKhXGc/ZG5REYTT6ltKfExEei/Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--- Github calender --->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+    />
+    <!--- Bootstrap CSS --->
+    <link rel="stylesheet" href="./styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+
+  <body>
+    <!------Preloader Start--------->
+    <div class="preloader">
+      <div></div>
+    </div>
+    <!------Preloader End--------->
+
+    <!----Navbar Start---->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <!-- Brand -->
+        <a class="navbar-brand" href="/">
+          <div class="cube">
+            <div class="top"></div>
+            <div>
+              <span style="--i: 0"></span>
+              <span style="--i: 1"></span>
+              <span style="--i: 2"></span>
+              <span style="--i: 3"></span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <i class="bx bx-menu"></i>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" data-scroll-nav="0" href="#"
+                ><i class="bx bx-home-alt"></i> Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-scroll-nav="1" href="#"
+                ><i class="bx bx-user"></i> About Me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-scroll-nav="2" href="#"
+                ><i class="bx bx-wrench"></i> Skills</a
+              >
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" data-scroll-nav="3" href="#"
+                ><i class="bx bx-education-alt"></i> Education</a
+              > -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-scroll-nav="4" href="#"
+                ><i class="bx bx-carousel"></i> Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="./resources/Ashutosh Singh Resume.pdf"
+                download=""
+                target="_blank"
+                class="btn btn-1"
+                onclick="window.open('https://drive.google.com/file/d/1IKRPDDcTDprGhXYGq-RLtkTewVIdCVL8/view?usp=drive_link', '_blank')"
+                >Resume</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!----Navbar End------>
+
+    <!----Home Section Start ----->
+    <section
+      class="home d-flex align-items-center"
+      id="home"
+      data-scroll-index="0"
+    >
+      <div class="container">
+        <p>Hi, I'm Ashutosh Singh a</p>
+        <h1>Azure Administrator</h1>
+        <div class="home-btn">
+          <a
+            href="./resources/Ashutosh Singh Resume.pdf"
+            download=""
+            target="_blank"
+            class="btn btn-1"
+            onclick="window.open('https://drive.google.com/file/d/1IKRPDDcTDprGhXYGq-RLtkTewVIdCVL8/view?usp=drive_link', '_blank')"
+            >Resume</a
+          >
+        </div>
+      </div>
+      <svg
+        preserveAspectRatio="none"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          class="path"
+          fill="#0099ff"
+          fill-opacity="1"
+          d="M0,128L80,117.3C160,107,320,85,480,96C640,107,800,149,960,160C1120,171,1280,149,1360,138.7L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!----Home Section End ----->
+
+    <!----About Me Section Start----->
+    <section
+      class="about-me section-padding"
+      id="about_me"
+      data-scroll-index="1"
+    >
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title">
+              <h2>About <span>Me</span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="row-2">
+          <img
+            src="./resources/my-as.jpeg"
+            alt="Profile"
+            title="My profile photo"
+            class="profile"
+          />
+          <div class="about-text">
+            <h2>I'm Ashutosh Singh</h2>
+            <div class="wrapper">
+              <h1 class="static-text">Skilled in</h1>
+              <ul class="skills">
+                <li><span>Azure Active Directory </span></li>
+                <li><span>Azure VM</span></li>
+                <li><span>Azure ad connects</span></li>
+                <li><span>Virtual networking</span></li>
+                <li><span>Microsoft Azure</span></li>
+                <li><span>On premise server</span></li>
+                <li><span>Software Installation and Configuring </span></li>
+                <li><span>MS Office 365</span></li>
+                <li><span> System Administration</span></li>
+                <li><span>Monitoring</span></li>
+                <li><span>Backup</span></li>
+                <li><span>subscription</span></li>
+                <li><span>L1 Support</span></li>
+              </ul>
+            </div>
+
+            <p>
+            Intern seeking a challenging and rewarding opportunity with growthoriented organization, which effectively utilizes and nurtures my analytical and technical skills. Working experience in Azure
+Administration, System Builds, OS Installation, Application Installation, Backup
+and Recovery, Networking, Storage, Windows..
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----About Me Section End----->
+
+    <!----Skills Section Start----->
+    <section class="skills section-padding" id="skills" data-scroll-index="2">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title">
+              <h2>Technical <span>Skills</span></h2>
+              <h3 align="center">Tools and Technologies</h3>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="tools_and_tech">
+            <a href="#" target="_blank" title="User-Subscriptions">
+              <img src="resources/icons/User-Subscriptions.svg" alt="User-Subscriptions" />
+            </a>
+            <a href="https://#/" target="_blank" title="VM-Images">
+              <img src="resources/icons/VM-Images.svg" alt="VM-Images" />
+            </a>
+            <a href="#/" target="_blank" title="Virtual-Networks">
+              <img src="resources/icons/Virtual-Networks.svg" alt="Virtual-Networks" />
+            </a>
+            <a href="#/" target="_blank" title="Azure-Migrate">
+              <img src="resources/icons/Azure-Migrate.svg" alt="Azure-Migrate" />
+            </a>
+            <a href="#/" target="_blank" title="Azure-AD">
+              <img src="resources/icons/Azure-AD.svg" alt="Azure-AD" />
+            </a>
+           
+            
+
+            <a
+              href="#"
+              target="_blank"
+              title="Virtual-Network-Gateways"
+            >
+              <img src="resources/icons/Virtual-Network-Gateways.svg" alt="Virtual-Network-Gateways" />
+            </a>
+            <a href="#/" target="_blank" title="Peering-Service">
+              <img src="resources/icons/Peering-Service.svg" alt="Peering-Service" />
+            </a>
+
+            <a
+              href="#"
+              target="_blank"
+              title="App-Services"
+            >
+              <img src="resources/icons/App-Services.svg" alt="App-Services" />
+            </a>
+
+
+            <a
+              href="#"
+              target="_blank"
+              title="Load-Balancers"
+            >
+              <img src="resources/icons/Load-Balancers.svg" alt="Load-Balancers" />
+            </a>
+
+            <a
+              href="#"
+              target="_blank"
+              title="Azure-Firewall"
+            >
+              <img src="resources/icons/Azure-Firewall-Manager.svg" alt="Azure-Firewall" />
+            </a>
+
+            <a
+              href="#"
+              target="_blank"
+              title="Web-Test"
+            >
+              <img src="resources/icons/Web-Test.svg" alt="Web-Test" />
+            </a>
+
+            <a
+              href="#"
+              target="_blank"
+              title="Scheduler"
+            >
+              <img src="resources/icons/Scheduler.svg" alt="Scheduler" />
+            </a>
+
+            <a href="#"target="_blank" title="Production-Ready-Database">
+              <img src="resources/icons/Production-Ready-Database.svg" alt="Production-Ready-Database" />
+            </a>
+            
+            <a href="#" target="_blank" title="Monitor">
+              <img src="resources/icons/Monitor.svg" alt="Monitor" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----Skills Section End----->
+
+    <!----Github Calender & Statistics Start----->
+    <section class="github-calender section-padding">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title">
+              <h2>Github <span>Calender</span></h2>
+              <!-- <h3 align="center">Tools and Technologies</h3> -->
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="calendar" id="github-calender">
+            Loading Github Calender...
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----Github Calender & Statistics End----->
+
+
+
+    <!-------Projects Section Start------>
+    <section
+      class="projects section-padding"
+      id="projects"
+      data-scroll-index="4"
+    >
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title">
+              <h2>Featured <span>Projects</span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="projects-container">
+          <div class="project-item">
+            <div class="image-section">
+              <img src="./resources/vm-creation.png" alt="vm-creation" />
+            </div>
+            <div class="project-info">
+              <h1>Create a zoned VM with the Azure CLI</h1>
+              <div class="links">
+                <a
+                  target="_blank"
+                  href="https://github.com/ashucloud8853"
+                >
+                  <i class="bx bxl-github"></i> Github repo
+                </a>
+                <a
+                  target="_blank"
+                  href="#"
+                >
+                  <i class="bx bx-play-circle"></i> Presentation Video
+                </a>
+              </div>
+              <p>
+                This article steps through using the Azure CLI to create a Windows VM in an Azure availability zone. An availability zone is a physically separate zone in an Azure region. Use availability zones to protect your apps and data from an unlikely failure or loss of an entire datacenter.
+
+To use an availability zone, create your virtual machine in a supported Azure region.
+
+Make sure that you have installed the latest Azure CLI and logged in to an Azure account with az login..
+              </p>
+              <div class="tech-stacks">
+                <h4>Tech Stacks</h4>
+                <div>
+                  <a href="#" target="_blank" title="VM-Images">
+                    <img src="resources/icons/VM-Images.svg" alt="VM-Images" />
+                  </a>
+                  <a
+                    href="#"
+                    target="_blank"
+                    title="Virtual-Networks"
+                  >
+                    <img src="resources/icons/Virtual-Networks.svg" alt="Virtual-Networks" />
+                  </a>
+
+                  <a
+                    href="#"
+                    target="_blank"
+                    title="Load-Balancers"
+                  >
+                    <img src="resources/icons/Load-Balancers.svg" alt="Load-Balancers" />
+                  </a>
+
+                  <a
+                    href="#"
+                    target="_blank"
+                    title="Azure-Firewall"
+                  >
+                    <img src="resources/icons/Azure-Firewall-Manager.svg" alt="Azure-Firewall" />
+                  </a>
+
+                  <a
+                    href="https://spring.io/tools"
+                    target="_blank"
+                    title="Monitor"
+                  >
+                    <img
+                      src="resources/icons/Monitor.svg"
+                      alt="Monitor"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-item">
+            <div class="image-section">
+              <img src="./resources/vpn.png" alt="StartWar screenshot" />
+            </div>
+            <div class="project-info">
+              <h1>Connect a computer to a virtual network VPN</h1>
+              <div class="links">
+                <a
+                  target="_blank"
+                  href="https://github.com/ashucloud8853"
+                >
+                  <i class="bx bxl-github"></i> Github repo
+                </a>
+                <a
+                  target="_blank"
+                  href="#"
+                >
+                  <i class="bx bx-play-circle"></i> Presentation Video
+                </a>
+              </div>
+              <p>
+                create a VNet with a Point-to-Site connection using the classic (legacy) deployment model. This configuration uses certificates to authenticate the connecting client, either self-signed or CA issued. Unless you want to work in the classic deployment model specifically, we recommend that you use the Resource Manager version of this article.
+              </p>
+              <div class="tech-stacks">
+                <h4>Tech Stacks</h4>
+                <div>
+                  <a href="#"target="_blank" title="VM-Images">
+                    <img src="resources/icons/VM-Images.svg" alt="VM-Images" />
+                  </a>
+                  <a
+                    href="#"
+                    target="_blank"
+                    title="Virtual-Networks"
+                  >
+                    <img src="resources/icons/Virtual-Networks.svg" alt="Virtual-Networks" />
+                  </a>
+
+                  <a
+                    href="https://hibernate.org/"
+                    target="_blank"
+                    title="Monitor"
+                  >
+                    <img src="resources/icons/Monitor.svg" alt="Monitor" />
+                  </a>
+
+                  <a
+                    href="https://spring.io/tools"
+                    target="_blank"
+                    title="Spring-boot"
+                  >
+                    <img src="resources/icons/spring.svg" alt="spring" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-item">
+            <div class="image-section">
+              <img src="./resources/webapp.png" alt="Meesho screenshot" />
+            </div>
+            <div class="project-info">
+              <h1>Web app Diployment</h1>
+              <div class="links">
+                <a
+                  target="_blank"
+                  href="https://github.com/ashucloud8853"
+                >
+                  <i class="bx bxl-github"></i> Github repo
+                </a>
+                <a
+                  target="_blank"
+                  href="#"
+                >
+                  <i class="bx bx-link-external"></i> Deployed link
+                </a>
+              </div>
+              <p>
+                From a simple, static HTML5 website to a dynamic, large-scale web application, Azure App Service Web Apps brings together everything you need to quickly deploy and run web apps using the language of your choice. This platform-as-a-service (PaaS) offering lets you focus on your business logic while we take care of the infrastructure to run and scale your apps.
+              </p>
+              <div class="tech-stacks">
+                <h4>Tech Stacks</h4>
+                <div>
+                  <a
+                    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                    target="_blank"
+                    title="JavaScript"
+                  >
+                    <img
+                      src="resources/icons/javascript.svg"
+                      alt="javascript"
+                    />
+                  </a>
+                  <a
+                    href="https://www.w3.org/html/"
+                    target="_blank"
+                    title="HTML5"
+                  >
+                    <img src="resources/icons/html5.svg" alt="html5" />
+                  </a>
+                  <a
+                    href="https://www.w3schools.com/css/"
+                    target="_blank"
+                    title="CSS3"
+                  >
+                    <img src="resources/icons/css3.svg" alt="css3" />
+                  </a>
+
+                  <a
+                    href="https://www.w3schools.com/css/"
+                    target="_blank"
+                    title="Github"
+                  >
+                    <img src="resources/icons/git.svg" alt="Github" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-item">
+            <div class="image-section">
+              <img
+                src="./resources/portfolio1.png"
+                alt="Cronometer screenshot"
+              />
+            </div>
+            <div class="project-info">
+              <h1>Portfolio</h1>
+              <div class="links">
+                <a
+                  target="_blank"
+                  href="https://github.com/ashucloud8853"
+                >
+                  <i class="bx bxl-github"></i> Github repo
+                </a>
+                <a target="_blank" href="#"
+                  <i class="bx bx-play-circle"></i> Deployed link
+                </a>
+              </div>
+              <p>
+                A portfolio is a systematic collection of student work that
+                represents student activities, accomplishments, and achievements
+                over a specific period of time in one or more areas of the
+                curriculum. There are two main types of portfolios: Showcase
+                Portfolios: Students select and submit their best work.
+              </p>
+              <div class="tech-stacks">
+                <h4>Tech Stacks</h4>
+                <div>
+                  <a
+                    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                    target="_blank"
+                    title="JavaScript"
+                  >
+                    <img
+                      src="resources/icons/javascript.svg"
+                      alt="javascript"
+                    />
+                  </a>
+                  <a
+                    href="https://www.w3.org/html/"
+                    target="_blank"
+                    title="HTML5"
+                  >
+                    <img src="resources/icons/html5.svg" alt="html5" />
+                  </a>
+                  <a
+                    href="https://www.w3schools.com/css/"
+                    target="_blank"
+                    title="CSS3"
+                  >
+                    <img src="resources/icons/css3.svg" alt="css3" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------Projects Section End------>
+
+
+     
+
+    <!---------Contact Section Start--------->
+    <section class="contact section-padding" data-scroll-index="4">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title">
+              <h2>get in <span>touch</span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-5">
+            <div class="contact-info">
+              <h3>For Any Queries and Support</h3>
+              <div class="resume-btn">
+                <a
+                  href="./resources/Ashutosh Singh Resume.pdf"
+                  download=""
+                  target="_blank"
+                  class="btn btn-1"
+                  onclick="window.open('https://drive.google.com/file/d/1IKRPDDcTDprGhXYGq-RLtkTewVIdCVL8/view?usp=drive_link', '_blank')"
+                  >Resume</a
+                >
+              </div>
+              <div class="contact-info-item email">
+                <i class="bx bx-envelope"></i>
+                <h4>Write to me at</h4>
+                <p>
+                  <a href="mailto:ashusingh8676@gmail.com" title="My email"
+                    >ashusingh8676@gmail.com</a
+                  >
+                </p>
+              </div>
+              <div class="contact-info-item mobile">
+                <i class="bx bx-phone"></i>
+                <h4>Write to me at</h4>
+                <p><a title="My mobile">+91 9102010398</a></p>
+              </div>
+              <div class="contact-info-item">
+                <i class="bx bxl-github"></i>
+                <h4>Github profile</h4>
+                <p>
+                  <a
+                    target="_blank"
+                    href="https://github.com/ashucloud8853"
+                    title="My GitHub profile"
+                    >github.com/Ashutosh Singh</a
+                  >
+                </p>
+              </div>
+
+              <div class="contact-info-item linkedin">
+                <i class="bx bxl-linkedin"></i>
+                <h4>LinkedIn Profile</h4>
+                <p>
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/ashutosh-singh-791756159/"
+                    title="LinkedIn profile"
+                    >linkedin.com/in/Ashutosh Singh</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-7">
+            <div class="contact-form">
+              <form id="email_form">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <input
+                        id="name"
+                        type="text"
+                        name="name"
+                        placeholder="Your Name"
+                        class="form-control"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <input
+                        id="email"
+                        type="text"
+                        name="email"
+                        placeholder="Your Email"
+                        class="form-control"
+                        required
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <input
+                        id="subject"
+                        type="text"
+                        name="subject"
+                        placeholder="Subject (optional)"
+                        class="form-control"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <textarea
+                        id="message"
+                        name="message"
+                        placeholder="Your Message (10-500 char)"
+                        class="form-control"
+                        required
+                      ></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <button id="submit" type="submit" class="btn btn-2">
+                      Send Message
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---------Contact Section End---------->
+
+    <!--------Footer Section Start--------->
+    <footer class="footer">
+      <p class="copyright-text">
+        Copyright &copy; Designed and created by
+        <a href="https://github.com/ashucloud8853" target="_blank"
+          >Ashutosh Singh</a
+        >
+      </p>
+    </footer>
+    <!--------Footer Section End---------->
+
+    <!--------Toggle Theme Start - light & dark mode----------->
+    <div class="toggle-theme" title="Change theme">
+      <i class="bx"></i>
+    </div>
+    <!--------Toggle Theme End------------>
+
+    <!--------Popup Message Modal Start------->
+    <div
+      class="modal fade"
+      id="popupModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="popupModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <span id="popup-message"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------Popup Message Modal End------->
+
+    <!---Jquery js---->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!---bootstrap js---->
+    <script src="./scripts/bootstrap.min.js"></script>
+    <!---ScrollIt js---->
+    <script src="scripts/scrollIt.min.js"></script>
+    <!------ Github Calender js ------>
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+    <!-------index js------>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
